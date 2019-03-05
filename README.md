@@ -1,5 +1,6 @@
 ### 效果图
 <img src="https://github.com/00feng00/jdshop/blob/master/jdshopBg.jpg">
+
 ### 目录说明
 ~~~
 +-- css                  // 样式文件
