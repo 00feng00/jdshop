@@ -1,0 +1,187 @@
+@charset "UTF-8";
+.banner604{
+    position: relative;
+
+}
+.banner604 a{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url("../images/banner.jpg") no-repeat top center;
+}
+.main{
+    position: relative;
+
+}
+.slider{
+    width: 730px;
+    height: 453px;
+    margin:12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    bottom: 8px;
+    left:50%;
+    margin-left: -66px;
+}
+.circle li{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.6);
+    color: #ffffff;
+    text-align: center;
+    line-height: 18px;
+    float: left;
+    margin:0 2px;
+    cursor: pointer;
+}
+.circle li.current{
+    background:#b1191a;
+}
+.arrow{
+    display: none;
+}
+.night-r .arrow{
+    display: block;
+}
+.arrow-l,.arrow-r{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top:50%;
+    margin-top: -31px;
+    color: #fff;
+    font:500 20px/62px "宋体";
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.night-r .arrow-l,.arrow-r{
+    width: 22px;
+    height: 52px;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 53px;
+}
+.arrow-l{
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
+.arrow-r:hover,.arrow-l:hover{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.news{
+    width: 248px;
+    height: 451px;
+    border: 1px solid #e4e4e4;
+    float: right;
+    margin-top: 12px;
+}
+.jd-news{
+    height: 200px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.jd-news .dt,.life-service .dt{
+    height: 43px;
+    border-bottom: 1px dotted #e8e8e7;
+    line-height: 43px;
+}
+.jd-news .dt h3,.life-service .dt h3{
+    float: left;
+    font:14px/43px "microsoft yahei";
+    color: #666;
+    padding-left: 15px;
+}
+.jd-news .dt a{
+    float: right;
+    font:13px/43px "宋体";
+    margin-right: 15px;
+}
+.jd-news .dd ul{
+    padding: 8px 0 0 15px;
+}
+.jd-news .dd li{
+    line-height: 28px;
+}
+.jd-news .dd li span{
+    font-weight: 700;
+    padding-right: 5px;
+}
+.life-service{
+    height: 251px;
+    width: 248px;
+}
+.life-service ul{
+    width: 252px;
+}
+.life-service .dd{
+    /*border-top: 1px dashed #e8e8e7;*/
+    overflow: hidden;
+    height: 206px;
+}
+.life-service .dd li{
+    width: 62px;
+    height: 70px;
+    border:1px solid #e8e8e7;
+    margin: -1px 0 0 -1px;
+    /*margin-left: -1px;*/
+    float: left;
+    position: relative;
+}
+/*.life-service .dd li:hover{*/
+    /*border: 1px solid red;*/
+    /*z-index: 1;*/
+/*}*/
+
+.life-service li a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 46px;
+    position: relative;
+}
+.life-service .dd li i{
+    width:25px;
+    height: 25px;
+    position: absolute;
+    top:14px;
+    left: 18px;
+    background: url("../images/icon_lifeserv.png") no-repeat right top;
+}
+.life-service .dd i:nth-child(4){
+    /*position: absolute;*/
+    background: url("../images/mian.png") no-repeat;
+    top:2px;
+}
+
+.todays{
+    position: relative;
+}
+.night{
+    margin: 10px 0 28px 0;
+}
+.night-l{
+    float: left;
+}
+.night-r{
+    width: 1000px;
+    height: 160px;
+    float: right;
+    position: relative;
+}
+.night-r ul{
+    width: 500%;
+}
+.night-r li{
+    float: left;
+    margin-right: 1px;
+}
+
+
